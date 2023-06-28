@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+0x0() {
+for i in "$@"; do
+    curl -F file=@$i http://0x0.st
+done
+}
+
+envs() {
+for i in "$@"; do
+    curl -F file=@$i https://envs.sh/
+done
+}
+
+play() {
+        mpv "$(wl-paste 2>/dev/null || xclip -o 2>/dev/null)"
+}
+
+yplay() {
+    mpv --input-ipc-server=/tmp/mpvcmd --ytdl-format=bestaudio ytdl://ytsearch:"$*"
+}
