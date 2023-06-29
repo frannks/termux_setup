@@ -9,6 +9,15 @@ Um script para minha configuração do termux.
 - Fique a vontade para editar o script para seu uso/gosto.
 - Caso queira personalizar o seu termux com temas e fontes, use o [Termux:Styling](https://f-droid.org/en/packages/com.termux.styling/).
 
+## Pacotes pré-instalados:
+- neofetch
+- neovim
+- mpv
+- starship
+- git
+- zsh
+- curl
+
 ## Download/Execução:
 - Se o mirror estiver ruim execute esse comando `termux-change-repo`
 - Dentro do termux execute esses comandos:
